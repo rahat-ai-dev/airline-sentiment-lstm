@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- Data (raw data stays local / documented in DATASET.md, not committed) ---
+data/interim/*
+data/external/*
+!data/interim/.gitkeep
+!data/external/.gitkeep
+# Uncomment if the raw CSV should not be committed to keep the repo small:
+# data/raw/*.csv
+
+# --- Models & large artifacts ---
+models/*.keras
+models/*.joblib
+!models/.gitkeep
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Environment / secrets ---
+.env
+*.env.local
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
