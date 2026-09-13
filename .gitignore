@@ -33,3 +33,6 @@ models/*.joblib
 .idea/
 .vscode/
 *.swp
+#
+data/processed/*
+!data/processed/.gitkeep
