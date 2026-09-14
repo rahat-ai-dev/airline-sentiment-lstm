@@ -5,7 +5,7 @@ description = "Deep learning (Bidirectional LSTM) sentiment triage for airline c
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "Your Name" }]
+authors = [{ name = "Rahat Mia" }]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
