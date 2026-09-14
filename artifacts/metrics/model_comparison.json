@@ -1,0 +1,93 @@
+{
+  "baseline": {
+    "accuracy": 0.7985004686035614,
+    "macro_f1": 0.7398953545296374,
+    "macro_precision": 0.7338876076354706,
+    "macro_recall": 0.7468943879243369,
+    "per_class": {
+      "negative": {
+        "precision": 0.8949771689497716,
+        "recall": 0.864070536370316,
+        "f1": 0.8792523364485981,
+        "support": 1361.0
+      },
+      "neutral": {
+        "precision": 0.5995850622406639,
+        "recall": 0.6523702031602708,
+        "f1": 0.6248648648648648,
+        "support": 443.0
+      },
+      "positive": {
+        "precision": 0.7071005917159763,
+        "recall": 0.7242424242424242,
+        "f1": 0.7155688622754491,
+        "support": 330.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1176,
+        143,
+        42
+      ],
+      [
+        97,
+        289,
+        57
+      ],
+      [
+        41,
+        50,
+        239
+      ]
+    ],
+    "avg_inference_latency_ms": 0.02217985473175192,
+    "model_name": "TF-IDF + Logistic Regression (baseline)"
+  },
+  "lstm": {
+    "accuracy": 0.7942830365510778,
+    "macro_f1": 0.7351160829108491,
+    "macro_precision": 0.7216762096381166,
+    "macro_recall": 0.7523575241872603,
+    "per_class": {
+      "negative": {
+        "precision": 0.9061767005473026,
+        "recall": 0.8515797207935342,
+        "f1": 0.878030303030303,
+        "support": 1361.0
+      },
+      "neutral": {
+        "precision": 0.603411513859275,
+        "recall": 0.6388261851015802,
+        "f1": 0.6206140350877193,
+        "support": 443.0
+      },
+      "positive": {
+        "precision": 0.655440414507772,
+        "recall": 0.7666666666666667,
+        "f1": 0.7067039106145251,
+        "support": 330.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1159,
+        137,
+        65
+      ],
+      [
+        92,
+        283,
+        68
+      ],
+      [
+        28,
+        49,
+        253
+      ]
+    ],
+    "avg_inference_latency_ms": 0.6140550945893335,
+    "model_name": "Bidirectional LSTM",
+    "num_parameters": 1590147
+  }
+}

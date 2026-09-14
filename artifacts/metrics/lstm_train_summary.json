@@ -1,0 +1,8 @@
+{
+  "test_accuracy": 0.7942830324172974,
+  "test_loss": 0.5525988340377808,
+  "train_seconds": 87.80570721626282,
+  "epochs_run": 5,
+  "vocab_size": 10975,
+  "trainable_params": 1590147
+}
