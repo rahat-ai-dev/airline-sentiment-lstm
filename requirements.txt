@@ -7,7 +7,8 @@ pyarrow>=25.0.1,<26
 joblib>=1.5.3,<1.6
 
 # Deep learning
-tensorflow-cpu>=2.21.0,<2.22
+tensorflow-cpu>=2.21.0,<2.22; sys_platform == "linux"
+tensorflow>=2.21.0,<2.22; sys_platform != "linux"
 
 # Visualization
 matplotlib>=3.10.8,<3.11
